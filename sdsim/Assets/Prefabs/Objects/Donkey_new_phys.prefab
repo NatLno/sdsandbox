@@ -3400,8 +3400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorCam: {fileID: 20774512129789012}
-  width: 160
-  height: 120
+  width: 1920
+  height: 1080
   depth: 3
   img_enc: JPG
 --- !u!114 &114269225094589410
