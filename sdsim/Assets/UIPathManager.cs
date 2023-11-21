@@ -8,6 +8,14 @@ public class UIPathManager : MonoBehaviour
     [SerializeField]
     PathManager pathManager;
 
+    //[SerializeField]
+    //CarSpawner carSpawner;
+
+    //[SerializeField]
+    //GameObject car;
+    //[SerializeField]
+    //GameObject carPidController;
+
     [SerializeField]
     PathCreator leftSidePath;
     [SerializeField]
@@ -24,7 +32,8 @@ public class UIPathManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if (carSpawner.cars.Count >= 0)
+        //    car = carSpawner.cars[0];
     }
 
     public void SetLeftSidePath()
@@ -55,5 +64,13 @@ public class UIPathManager : MonoBehaviour
             Destroy(child.gameObject);
         }
         pathManager.InitCarPath();
+    }
+
+    public void StartCar()
+    {
+        //if (car != null)
+        //{
+        //    carPidController = car.GetComponentsInChildren<Transform>()[0].gameObject.GetComponentsInChildren<Transform>()[2].gameObject;
+        //}
     }
 }
