@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/mountain_track.unity
     guid: fa958af1d4fc8ef449b0c7b710692aad
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: afdb63114d973f64788d9a3fb3c9f231,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5027a64ad84dd9e4fb4eaf5acae0df73,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7b254498688817e4686672c9f74e5406,
+      type: 2}
