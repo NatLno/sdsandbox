@@ -30,6 +30,9 @@ public interface ICar
 
 	float GetHandBrake();
 
+	float GetMaxSpeed();
+
+	void SetMaxSpeed(float val);
 
 	//query state.
 	Transform GetTransform();

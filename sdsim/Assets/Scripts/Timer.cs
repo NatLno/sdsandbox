@@ -94,11 +94,16 @@ public class Timer : MonoBehaviour
         if(currentTotTimeDisp.gameObject.activeSelf & !freezed)
         {
             float currentTime = GetCurrentTime();
-            currentTotTimeDisp.text = currentTime.ToString("00.00");
+            int minutes = (int) (currentTime / 60);
+            int secondes = (int)(currentTime % 60);
+            float millisecondes = (currentTime - (minutes * 60 + secondes)) * 100;
+
+            currentTotTimeDisp.text = minutes > 0 ? $"{minutes}'{secondes:00}.{millisecondes:00}" : $"{secondes:00}.{millisecondes:00}";
+            //currentTotTimeDisp.text = currentTime.ToString("00.00");
         }
-        if(penaltiesDisp.text != penalties.ToString("00.00") & !freezed)
+        if(penaltiesDisp.text != penalties.ToString("0") & !freezed)
         {
-            penaltiesDisp.text = penalties.ToString("00.00");
+            penaltiesDisp.text = penalties.ToString("0");
         }
     }
 }

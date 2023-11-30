@@ -270,4 +270,14 @@ public class Car : MonoBehaviour, ICar{
 	{
 		last_collision = col.gameObject.name;
 	}
+
+    public float GetMaxSpeed()
+    {
+		return maxSpeed;
+    }
+
+    public void SetMaxSpeed(float val)
+    {
+		maxSpeed = val;
+    }
 }

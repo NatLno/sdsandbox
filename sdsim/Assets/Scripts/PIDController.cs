@@ -99,6 +99,7 @@ public class PIDController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        car.SetMaxSpeed(maxSpeed);
         if (!isDriving) { return; }
 
         PathNode n = pm.carPath.GetNode(iActiveSpan);

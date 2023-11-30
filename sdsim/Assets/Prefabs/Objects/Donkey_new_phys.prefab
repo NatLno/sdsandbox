@@ -1442,7 +1442,7 @@ MonoBehaviour:
   - {fileID: 4598096429093340}
   maxSpeed: 40
   maxTorque: 100
-  maxBreakTorque: 100
+  maxBreakTorque: 1000
   torqueCurve:
     serializedVersion: 2
     m_Curve:

@@ -141,5 +141,15 @@ public class UnityStandardCarAdapter : MonoBehaviour, ICar {
 		last_collision = col.gameObject.name;
 	}
 
-	string last_collision = "none";
+    public float GetMaxSpeed()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void SetMaxSpeed(float val)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    string last_collision = "none";
 }

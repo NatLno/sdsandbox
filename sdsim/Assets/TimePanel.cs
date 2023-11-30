@@ -48,15 +48,18 @@ public class TimePanel : MonoBehaviour
 
     public int TimeStrToSeconde(string strTime)
     {
-        string[] tabStr = strTime.Split('.');
-        int minutes = int.Parse(tabStr[0]);
-        int secondes = int.Parse(tabStr[1]);
-        return minutes * 60 + secondes;
+        string[] tabStr = strTime.Split('\'');
+        string[] tabStr2 = (tabStr.Length == 1) ? tabStr[0].Split('.') : tabStr[1].Split('.');
+        
+        int minutes = (tabStr.Length == 1) ? 0 : int.Parse(tabStr[0]);
+        int secondes = int.Parse(tabStr2[0]);
+        int millisecondes = int.Parse(tabStr2[1]);
+        return minutes * 6000 + secondes * 100 + millisecondes;
     }
 
     public void SetBestLapTime()
     {
-        if (m_bestTimeLap.text.Equals("--:--"))
+        if (m_bestTimeLap.text.Equals("--.--"))
         {
             m_bestTimeLap.text = m_timeLap.text;
             return;
