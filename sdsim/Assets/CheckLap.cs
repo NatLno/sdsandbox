@@ -58,6 +58,12 @@ public class CheckLap : MonoBehaviour
                 }
                 ResetCheckPoints();
             }
+            
+            Timer timer = GameObject.FindObjectOfType<Timer>();
+            if (m_beginLap && timer && !timer.enabled_timer)
+            {
+                timer.StartTimer();
+            }
         }
     }
 
