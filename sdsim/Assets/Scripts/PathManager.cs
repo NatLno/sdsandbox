@@ -37,6 +37,7 @@ public class PathManager : MonoBehaviour
     public bool doShowNodePath = false;
     public bool doShowCenterNodePath = false;
     public GameObject pathelem;
+    public bool randomPath = false;
 
     [Header("Aux")]
     public GameObject[] initAfterCarPathLoaded; // Scripts using the IWaitCarPath interface to init after loading the CarPath
@@ -69,7 +70,7 @@ public class PathManager : MonoBehaviour
         }
         else if (doLoadGameObjectPath)
         {
-            MakeGameObjectPath();
+            MakeGameObjectPath(randomPath, 2f);
         }
 
         if (carPath == null) // if no carPath was created, skip the following block of code
@@ -220,7 +221,7 @@ public class PathManager : MonoBehaviour
         return a - b * Mathf.Floor(a / b);
     }
 
-    void MakeGameObjectPath(float precision = 3f)
+    void MakeGameObjectPath(bool random, float precision = 3f)
     {
         carPath = new CarPath();
 
@@ -244,6 +245,15 @@ public class PathManager : MonoBehaviour
             Vector3 point = points[(int)nfmod(i, (points.Count - 1))];
             Vector3 previous_point = points[(int)nfmod(i - 1, (points.Count - 1))];
             Vector3 next_point = points[(int)nfmod(i + 1, (points.Count - 1))];
+
+            if (random)
+            {
+                float rand = 1f;
+                Vector3 randVect = new Vector3(Random.Range(-rand, rand), 0, Random.Range(-rand, rand));
+                point += randVect;
+                previous_point += randVect;
+                next_point += randVect;
+            }
 
             PathNode p = new PathNode();
             p.pos = point;

@@ -10,6 +10,11 @@ public class JoystickCarControl : MonoBehaviour
 
 	public float MaximumSteerAngle = 25.0f; //has to be kept in sync with the car, as that's a private var.
 	
+	public ICar Car
+    {
+		get => car;
+    }
+
 	void Awake()
 	{
 		if(carObj != null)

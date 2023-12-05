@@ -1124,6 +1124,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 972150304}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &96555815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1998,6 +1999,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 96555814}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &292176425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2731,79 +2733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a805a69b7f665dc4f99d20b54dada289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &343390939
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_Name
-      value: XR Interaction Setup
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
 --- !u!1001 &344143305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3079,6 +3008,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1935230252}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &378574530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3130,19 +3060,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   XrOrigin: {fileID: 1408690296}
-  leftHandMoveAction:
+  headRotation:
     m_UseReference: 1
     m_Action:
-      m_Name: Left Hand Move
+      m_Name: Head Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 2821b832-7b8a-417a-9d09-abe547d8c1f5
+      m_Id: 77891045-11db-4060-a268-fe054d39e537
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  rightHandMoveAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c347cbd5-91d2-4f61-9111-ada825c1dfe0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  leftHandTriggerAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Hand Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e3402366-cca5-4674-b9e4-267025b8bffb
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  rightHandTriggerAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Hand Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1aaa7846-9f12-4734-b39e-7495052e0ee6
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  joystickCarControl: {fileID: 0}
+  moveType: 2
 --- !u!4 &404579208
 Transform:
   m_ObjectHideFlags: 0
@@ -3508,6 +3479,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 767113871}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &461461392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6159,6 +6131,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1416631821}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &767113872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7100,6 +7073,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 292176424}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &954387484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7267,6 +7241,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1999693846}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &972150305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8743,6 +8718,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1526517276}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1212911255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9558,6 +9534,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 954387482}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1416631822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10011,6 +9988,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1664464709}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1526517277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10898,6 +10876,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1914284980}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1664464710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11229,6 +11208,7 @@ MonoBehaviour:
   - {fileID: 461461391}
   - {fileID: 767113871}
   m_timePanel: {fileID: 439872493}
+  m_pathManager: {fileID: 7732105999814973112}
 --- !u!1 &1708035416
 GameObject:
   m_ObjectHideFlags: 0
@@ -13522,6 +13502,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 378574529}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1914284981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13653,6 +13634,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 461461391}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1935230253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13908,6 +13890,7 @@ MonoBehaviour:
   m_nextCheckPoint: {fileID: 1212911254}
   m_checkPoints: []
   m_timePanel: {fileID: 0}
+  m_pathManager: {fileID: 0}
 --- !u!65 &1999693847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16367,6 +16350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
         type: 3}
+      propertyPath: randomPath
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
       propertyPath: doBuildRoad
       value: 0
       objectReference: {fileID: 0}
@@ -16602,4 +16590,3 @@ SceneRoots:
   - {fileID: 3688992057152106728}
   - {fileID: 1873604574}
   - {fileID: 404579208}
-  - {fileID: 343390939}

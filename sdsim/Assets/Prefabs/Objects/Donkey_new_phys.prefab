@@ -2929,7 +2929,7 @@ MonoBehaviour:
   - {fileID: 3463299510886559571}
   - {fileID: 2727778315529008430}
   ai_text: {fileID: 0}
-  limitFPS: 20
+  limitFPS: 10
   timeSinceLastMoved: 0
   lastPos: {x: 0, y: 0, z: 0}
   lastDistanceTraveled: 0

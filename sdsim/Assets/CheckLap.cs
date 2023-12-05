@@ -23,6 +23,9 @@ public class CheckLap : MonoBehaviour
     [SerializeField]
     TimePanel m_timePanel;
 
+    [SerializeField]
+    PathManager m_pathManager;
+
     bool m_trigger = false;
 
     private void Start()
@@ -57,6 +60,7 @@ public class CheckLap : MonoBehaviour
                     SetLapTime();
                 }
                 ResetCheckPoints();
+                ResetPath();
             }
             
             Timer timer = GameObject.FindObjectOfType<Timer>();
@@ -95,5 +99,14 @@ public class CheckLap : MonoBehaviour
             timer.DisableTimer();
             timer.StartTimer();
         }
+    }
+
+    public void ResetPath()
+    {
+        foreach (Transform child in m_pathManager.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        m_pathManager.InitCarPath();
     }
 }
