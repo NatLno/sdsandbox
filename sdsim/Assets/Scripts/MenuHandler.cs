@@ -99,7 +99,9 @@ public class MenuHandler : MonoBehaviour {
 
 	public void OnPidDrive()
 	{
-		if(PIDContoller != null)
+        Debug.LogWarning("============");
+		PIDContoller.SetActive(true);
+        if (PIDContoller != null)
 			PIDContoller.SetActive(true);
 
 		if(carJSControl != null)

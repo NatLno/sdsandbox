@@ -1146,6 +1146,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6151174, y: 1.0000001, z: 0.40000004}
   m_Center: {x: 0, y: 3.637979e-14, z: -0.19999997}
+--- !u!114 &172566928 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4048215377336676787, guid: b4bfaf4102a71204692041cf5b06c6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1729123147319856649}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2839404bd363747759350375dfeda1bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &185193049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15527,6 +15539,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.7998047
       objectReference: {fileID: 0}
+    - target: {fileID: 4226366908051643097, guid: b4bfaf4102a71204692041cf5b06c6bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.3000488
+      objectReference: {fileID: 0}
     - target: {fileID: 4226500186136556145, guid: b4bfaf4102a71204692041cf5b06c6bb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -16363,6 +16380,11 @@ PrefabInstance:
       propertyPath: invertNodes
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
+      propertyPath: menuHandler
+      value: 
+      objectReference: {fileID: 172566928}
     - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
         type: 3}
       propertyPath: numRandCone
