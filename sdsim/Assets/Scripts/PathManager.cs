@@ -46,11 +46,18 @@ public class PathManager : MonoBehaviour
     Vector3 span = Vector3.zero;
     GameObject generated_mesh;
 
+    [SerializeField]
+    List<GameObject> points;
+
     void Awake()
     {
         if (sameRandomPath)
             Random.InitState(randSeed);
 
+        //InitCarPath();
+    }
+    private void Start()
+    {
         InitCarPath();
     }
 
@@ -246,13 +253,28 @@ public class PathManager : MonoBehaviour
             Vector3 previous_point = points[(int)nfmod(i - 1, (points.Count - 1))];
             Vector3 next_point = points[(int)nfmod(i + 1, (points.Count - 1))];
 
+            
             if (random)
             {
-                float rand = 1f;
-                Vector3 randVect = new Vector3(Random.Range(-rand, rand), 0, Random.Range(-rand, rand));
-                point += randVect;
-                previous_point += randVect;
-                next_point += randVect;
+                bool makeRandom = true;
+                List<Transform> cones = GetComponent<ConesManager>().Cones;
+                foreach (Transform cone in cones)
+                {
+                    if (Vector3.Distance(point, cone.position) < 5f)
+                    {
+                        makeRandom = false;
+                        break;
+                    }
+                }
+
+                if (makeRandom)
+                {
+                    float rand = 0.5f;
+                    Vector3 randVect = new Vector3(Random.Range(-rand, rand), 0, Random.Range(-rand, rand));
+                    point += randVect;
+                    previous_point += randVect;
+                    next_point += randVect;
+                }
             }
 
             PathNode p = new PathNode();

@@ -119,7 +119,11 @@ public class PIDController : MonoBehaviour
 
         // need to refactor this
         if (car.GetVelocity().magnitude < maxSpeed)
-            car.RequestThrottle(throttleVal);
+        {
+            float rand = 0.05f;
+            float randValue = Random.Range(-rand, rand);
+            car.RequestThrottle(throttleVal + randValue);
+        }
 
 
         if (pid_steering != null)

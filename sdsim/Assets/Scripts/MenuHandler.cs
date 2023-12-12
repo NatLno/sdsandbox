@@ -99,8 +99,6 @@ public class MenuHandler : MonoBehaviour {
 
 	public void OnPidDrive()
 	{
-        Debug.LogWarning("============");
-		PIDContoller.SetActive(true);
         if (PIDContoller != null)
 			PIDContoller.SetActive(true);
 

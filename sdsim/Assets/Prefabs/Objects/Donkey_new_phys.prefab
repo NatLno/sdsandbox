@@ -1440,9 +1440,9 @@ MonoBehaviour:
   - {fileID: 4122056538531734}
   - {fileID: 4787735650332140}
   - {fileID: 4598096429093340}
-  maxSpeed: 40
+  maxSpeed: 4
   maxTorque: 100
-  maxBreakTorque: 1000
+  maxBreakTorque: 100
   torqueCurve:
     serializedVersion: 2
     m_Curve:
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4094371041706668
 Transform:
   m_ObjectHideFlags: 0
@@ -3202,7 +3202,7 @@ MonoBehaviour:
   Kt: 0
   prevErr: 0
   steeringReq: 0
-  throttleVal: 0.2
+  throttleVal: 0.1
   totalError: 0
   absTotalError: 0
   totalAcc: 0

@@ -9778,7 +9778,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 7732105999814973110}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 7732105999814973112}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6940724510810407baa499c3bb3fc03c, type: 3}
@@ -17485,6 +17485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
         type: 3}
+      propertyPath: randomPath
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
       propertyPath: doBuildRoad
       value: 0
       objectReference: {fileID: 0}
@@ -17644,7 +17649,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1634053867182616, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7732105999814973113}
   m_SourcePrefab: {fileID: 100100000, guid: 89b891dc9d0fe46ffba6fbc78477652f, type: 3}
 --- !u!4 &7732105999814973111 stripped
 Transform:
@@ -17652,6 +17661,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7732105999814973110}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7732105999814973112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1634053867182616, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7732105999814973110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7732105999814973113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732105999814973112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4776c074fc7af445abdf02e89b0dfa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_coneParent: {fileID: 650395911}
+  m_cones: []
 --- !u!4 &7793585166132769265
 Transform:
   m_ObjectHideFlags: 0

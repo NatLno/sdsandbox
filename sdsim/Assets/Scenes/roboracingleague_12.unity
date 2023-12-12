@@ -290,6 +290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -401,6 +406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -2116,6 +2126,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -2228,6 +2243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -2339,6 +2359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -2828,6 +2853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -3312,6 +3342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -4285,6 +4320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -4662,6 +4702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -4971,6 +5016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -5504,6 +5554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -5926,6 +5981,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -6247,6 +6307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -7588,6 +7653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -8197,6 +8267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -8835,6 +8910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -8979,6 +9059,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -9090,6 +9175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -11503,6 +11593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -11697,6 +11792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -12149,6 +12249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -12287,6 +12392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -12699,6 +12809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -13158,6 +13273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -14044,6 +14164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLCone (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
       propertyPath: m_Convex
@@ -14901,6 +15026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CLCone (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219092626923047006, guid: 990090b1979fa7b45941b618e3e02f6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546511058728690540, guid: 990090b1979fa7b45941b618e3e02f6c,
         type: 3}
@@ -16531,7 +16661,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1634053867182616, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7732105999814973114}
   m_SourcePrefab: {fileID: 100100000, guid: 89b891dc9d0fe46ffba6fbc78477652f, type: 3}
 --- !u!4 &7732105999814973111 stripped
 Transform:
@@ -16545,12 +16679,32 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 7732105999814973110}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 7732105999814973113}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6940724510810407baa499c3bb3fc03c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7732105999814973113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1634053867182616, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7732105999814973110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7732105999814973114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732105999814973113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4776c074fc7af445abdf02e89b0dfa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_coneParent: {fileID: 1145347478}
+  m_cones: []
 --- !u!4 &7793585166132769265
 Transform:
   m_ObjectHideFlags: 0
