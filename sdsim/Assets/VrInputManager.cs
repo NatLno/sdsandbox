@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,9 +17,6 @@ public class VrInputManager : MonoBehaviour
 {
     [SerializeField]
     GameObject XrOrigin;
-
-    [SerializeField]
-    InputActionProperty headRotation;
 
     [SerializeField]
     InputActionProperty rightHandMoveAction;
@@ -49,12 +47,7 @@ public class VrInputManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // pass the input to the car!
-        //float h = CrossPlatformInputManager.GetAxis("Horizontal");
-        //float v = CrossPlatformInputManager.GetAxis("Vertical");
-        //float b = CrossPlatformInputManager.GetAxis("Jump");
-        //float handbrake = CrossPlatformInputManager.GetAxis("Jump");
-        if (joystickCarControl != null)
+        if (joystickCarControl != null && moveType != MoveType.None)
         {
             if (moveType == MoveType.Joystick)
             {
@@ -63,11 +56,14 @@ public class VrInputManager : MonoBehaviour
             }
             else if (moveType == MoveType.Trigger)
             {
-                joystickCarControl.Car.RequestSteering(headRotation.action.ReadValue<Quaternion>().eulerAngles.y * joystickCarControl.MaximumSteerAngle);
-                joystickCarControl.Car.RequestThrottle((leftHandTriggerAction.action.ReadValue<float>() + rightHandTriggerAction.action.ReadValue<float>()) / 2);
+                joystickCarControl.Car.RequestSteering(rightHandMoveAction.action.ReadValue<Vector2>().x * joystickCarControl.MaximumSteerAngle);
+                joystickCarControl.Car.RequestThrottle(leftHandTriggerAction.action.ReadValue<float>() + (rightHandTriggerAction.action.ReadValue<float>() * -1));
             }
         }
-        //car.RequestFootBrake(b);
-        //car.RequestHandBrake(handbrake);
+    }
+
+    public void SetMoveType(int moveTypeIndex)
+    {
+        moveType = (MoveType)Enum.Parse(typeof(MoveType), moveTypeIndex.ToString());
     }
 }
